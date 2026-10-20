@@ -2,8 +2,6 @@
 
 Reference implementation for `draft-lindqvist-zstdict` (Zstandard Dictionary Content-Encoding).
 
-[![Demo](curl_proof.svg)](https://github.com/pngz-dev/zstdict/blob/main/curl_proof.cast)
-
 ## What is this?
 This is a C library and WebAssembly build that implements a new HTTP Content-Encoding called `zstdict`. It uses Zstandard compression with a pre-shared dictionary to drastically reduce the size of small web payloads (like HTML and JSON).
 
